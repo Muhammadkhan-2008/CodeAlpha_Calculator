@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Khan | Front-End Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="#home" class="logo">M<span>K</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <button class="close-menu" id="closeMenu">&times;</button>
+            <ul>
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+                <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+                <li><a href="#education" class="mobile-nav-link">Education</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title fade-in">Muhammad Khan</h1>
+                    <div class="hero-subtitle slide-in-left">Front-End Developer</div>
+                    <p class="hero-description fade-in-delay">I build simple and clean websites using HTML, CSS, and WordPress.</p>
+                    <div class="hero-buttons fade-in-delay-2">
+                        <a href="#projects" class="btn btn-primary pulse-animation">
+                            <i class="fas fa-code"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-card">
+                        <img src="assets/1.jpg" alt="Muhammad Khan" class="profile-image">
+                        <div class="floating-elements">
+                            <div class="float-icon html-icon"><i class="fab fa-html5"></i></div>
+                            <div class="float-icon css-icon"><i class="fab fa-css3-alt"></i></div>
+                            <div class="float-icon js-icon"><i class="fab fa-js"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="title-line">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="fade-in">I'm learning front-end web development and enjoying every step of the journey. I love building websites and seeing my ideas come to life in the browser.</p>
+                    <p class="fade-in-delay">Through practice and personal projects, I'm improving my skills and learning new techniques. I believe in creating simple, clean, and functional websites that provide a good user experience.</p>
+                    <p class="fade-in-delay-2">I'm excited to continue growing as a developer and taking on new challenges in web development.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="10">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="6">0</div>
+                            <div class="stat-label">Months Learning</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="100">0</div>
+                            <div class="stat-label">Hours Practice</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="title-line">My Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Creating semantic and accessible web page structure</p>
+                </div>
+                
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Styling websites with modern layouts and responsive design</p>
+                </div>
+                
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>Basic JavaScript</h3>
+                    <p>Adding interactivity and functionality to websites</p>
+                </div>
+                
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3>WordPress</h3>
+                    <p>Building and customizing WordPress websites</p>
+                </div>
+                
+                <div class="skill-card hover-lift">
+                    <div class="skill-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Version control and hosting code repositories</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="title-line">My Projects</h2>
+            </div>
+            <div class="projects-container">
+                <!-- Netflix Clone -->
+                <div class="project-card hover-scale">
+                    <div class="project-header" style="background: linear-gradient(135deg, #e50914, #b81d24);">
+                        <div class="project-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <span class="project-badge">Frontend</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Netflix Clone</h3>
+                        <p>Responsive Netflix interface clone with movie browsing and modern UI components</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Muhammadkhan-2008/netflix-clone" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://muhammadkhan-2008.github.io/netflix-clone/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- iCoder Platform -->
+                <div class="project-card hover-scale">
+                    <div class="project-header" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <div class="project-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <span class="project-badge">Web App</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>iCoder Platform</h3>
+                        <p>Programming resources platform with tutorials and code examples</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Muhammadkhan-2008/heaven-for-programmer" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://muhammadkhan-2008.github.io/heaven-for-programmer/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Business Landing Page -->
+                <div class="project-card hover-scale">
+                    <div class="project-header" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+                        <div class="project-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <span class="project-badge">Business</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Business Landing Page</h3>
+                        <p>Professional business website with services, portfolio, and contact sections</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Mobile First</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Muhammadkhan-2008/business-landing-page" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://muhammadkhan-2008.github.io/business-landing-page/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="title-line">Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content hover-lift">
+                        <div class="timeline-date">Current</div>
+                        <h3>CodeAlpha Internship</h3>
+                        <p class="timeline-subtitle">Remote | Frontend Developer</p>
+                        <p>Frontend development internship focusing on practical web development projects and real-world experience.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content hover-lift">
+                        <div class="timeline-date">Ongoing</div>
+                        <h3>Personal Learning Projects</h3>
+                        <p class="timeline-subtitle">Self-directed Learning</p>
+                        <p>Building websites and applications for learning and portfolio development. Creating clones, landing pages, and utility apps to practice and improve skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="title-line">Education</h2>
+            </div>
+            <div class="education-cards">
+                <div class="education-card hover-lift">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Diploma in Information Technology (DIT)</h3>
+                    <p>Currently pursuing with focus on web development and programming</p>
+                </div>
+                <div class="education-card hover-lift">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>Matric (Science)</h3>
+                    <p>Completed with strong foundation in mathematics and sciences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="title-line">Contact Me</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card hover-lift">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:khanmuhammadkolachi390@gmail.com">khanmuhammadkolachi390@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card hover-lift">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Muhammadkhan-2008" target="_blank">github.com/Muhammadkhan-2008</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card hover-lift">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/muhammad-khan-82677439b" target="_blank">linkedin.com/in/muhammad-khan</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Muhammad Khan</div>
+                <p class="footer-tagline">Front-End Developer</p>
+                
+                <div class="footer-social">
+                    <a href="mailto:khanmuhammadkolachi390@gmail.com" class="social-link hover-scale">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/Muhammadkhan-2008" target="_blank" class="social-link hover-scale">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhammad-khan-82677439b" target="_blank" class="social-link hover-scale">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>&copy; <span id="currentYear"></span> Muhammad Khan. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
